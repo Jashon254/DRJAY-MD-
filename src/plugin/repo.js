@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/Berabotsmd/Trex-Md`;
+    const repoUrl = `https://api.github.com/repos/Jashon254/DrJay-Md`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -37,7 +37,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
 *_Forks:_* ${forks_count}
 *_Created At:_* ${new Date(created_at).toLocaleDateString()}
 *_Last Updated:_* ${new Date(updated_at).toLocaleDateString()}
-*_Owner:_* Bruce Bera
+*_Owner:_*DrJay
     `;
 
     const repoMessage = generateWAMessageFromContent(m.from, {
@@ -52,7 +52,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© Trex',
+              text: '© DrJay',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
@@ -70,15 +70,15 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
-                    display_text: 'Chat Bera',
-                    url: 'https://wa.me/+254743982206?text=Hi Bera i Need Help',
+                    display_text: 'Chat DrJay',
+                    url: 'https://wa.me/+254795271503?text=Hi DrJay i Need Help',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Click Here To Fork',
-                    url: 'https://github.com/berabotsmd/Trex-Md/fork',
+                    url: 'https://github.com/Jashon254/DrJay-Md/fork',
                   }),
                 },
                 {
