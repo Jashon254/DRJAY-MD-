@@ -27,14 +27,14 @@
  
 </p>
 <p align="center">
-<a href="https://github.com/Jashon254"><img title="Author" src="https://img.shields.io/badge/berabotsmd-black?style=for-the-badge&logo=Github"></a> <a href="https://https://whatsapp.com/channel/0029VanNRQm6BIEfrDHM9V0F"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/254795271503"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/Jashon254"><img title="Author" src="https://img.shields.io/badge/Jashon254-black?style=for-the-badge&logo=Github"></a> <a href="https://https://whatsapp.com/channel/0029VanNRQm6BIEfrDHM9V0F"><img title="Author" src="https://img.shields.io/badge/CHANNEL-black?style=for-the-badge&logo=whatsapp"></a> <a href="https://wa.me/254795271503"><img title="Author" src="https://img.shields.io/badge/CHAT US-black?style=for-the-badge&logo=whatsapp"></a>
 <p/>
   <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <p align="center">
 <a href="https://github.com/Jashon254?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Jashon254?label=Followers&style=social"></a>
-<a href="https://github.com/Jashon254/DRJAY-MD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Jashon254/DRJAY-MD?&style=social"></a>
-<a href="https://github.com/Jashon254/DRJAY-MD/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Jashon254/DRJAY-MD?style=social"></a>
-<a href="https://github.com/Jashon254/DRJAY-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Jashon254/DRJAY-MD?label=Watching&style=social"></a>
+<a href="https://github.com/Jashon254/DRJAY-MD-/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Jashon254/DRJAY-MD-?&style=social"></a>
+<a href="https://github.com/Jashon254/DRJAY-MD-/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Jashon254/DRJAY-MD-?style=social"></a>
+<a href="https://github.com/Jashon254/DRJAY-MD-/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Jashon254/DRJAY-MD-?label=Watching&style=social"></a>
 </p>></a>                     
 
    <h1 align="center"                  
@@ -55,7 +55,7 @@
 
 </p>
 
-- <a href="https://dashboard.heroku.com/new?button-url=https://github.com/Jashon254/DRJAY-MD &template=https://github.com/Jashon254/DRJAY-MD"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=yellow&style=for-the-badge&logo=Tesla" width="220" height="38.45"/></a></p>
+- <a href="https://dashboard.heroku.com/new?button-url=https://github.com/Jashon254/DRJAY-MD-&template=https://github.com/Jashon254/DRJAY-MD"><img title="Deploy On Render" src="https://img.shields.io/badge/DEPLOY ON HEROKU-h?color=yellow&style=for-the-badge&logo=Tesla" width="220" height="38.45"/></a></p>
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -86,7 +86,7 @@ HOW TO REACH THE OWNER?
 ## STEPS TO DEPLOY YOUR BOT
 
 
-1, Star the repo up there then click Here To  [`FORK`](https://github.com/Jashon254/DRJAY-MD/fork)
+1, Star the repo up there then click Here To  [`FORK`](https://github.com/Jashon254/DRJAY-MD-/fork)
 
 2, TAP ON GET SESSIONS
 
