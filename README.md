@@ -124,9 +124,9 @@ Contributions to DRJAY-MD are welcome! If you have ideas for new features, impro
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ## License
 
-The 🅃🅁🄴🅇-🄼🄳 is released under the [MIT License](https://opensource.org/licenses/MIT).
+The DRJAY-MD is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-Enjoy the diverse features of the *🅃🅁🄴🅇-🄼🄳*  to enhance your Whatsapp more enjoyable
+Enjoy the diverse features of the *DRJAY-MD*  to enhance your Whatsapp more enjoyable
 ☣𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 DRJAY-MD
 .
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
