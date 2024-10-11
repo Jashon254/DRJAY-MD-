@@ -1,10 +1,10 @@
 {
-  "name": "Trex-Md",
+  "name": "DrJay-Md",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/berabotsmd/Trex-Md",
+  "repository": "https://github.com/Jashon254/DrJay-Md",
   "stack": "container",
   "env": { 
       "SESSION_ID": {
