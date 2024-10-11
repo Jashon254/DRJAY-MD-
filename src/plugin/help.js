@@ -90,17 +90,17 @@ let mode = ethix.public ? 'public' : 'private';
           interactiveMessage: proto.Message.InteractiveMessage.create({
             body: proto.Message.InteractiveMessage.Body.create({
               text: `╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *Trex-Md*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *DrJay-Md*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *Bera*      
-│👤 ɴᴜᴍʙᴇʀ: 254743982206
+│👨‍💻 ᴏᴡɴᴇʀ : *DrJay*      
+│👤 ɴᴜᴍʙᴇʀ: 254795271503
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© Powered By Trex-Md"
+              text: "© Powered By DrJay-Md"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/Trex.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -122,49 +122,49 @@ let mode = ethix.public ? 'public' : 'private';
                       {
                        "header":"",
                        "title":"ᴀʟʟ ᴍᴇɴᴜ",
-                       "description":"Trex-Md",
+                       "description":"DrJay-Md",
                        "id":"View All Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Downloader Menu"
                       },
                       {
                         "header":"",
                         "title":"ɢʀᴏᴜᴘ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Group Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴛᴏᴏʟ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Tool Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴍᴀɪɴ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Main Menu"
                       },
                      {
                         "header":"",
                         "title":"ᴏᴡɴᴇʀ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Owner Menu"
                       },
                       {
                         "header":"",
                         "title":"ᴀɪ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Ai Menu"
                       },
                       {
                         "header":"",
                         "title":"ꜱᴇᴀʀᴄʜ ᴍᴇɴᴜ",
-                        "description":"Trex-Md",
+                        "description":"DrJay-Md",
                         "id":"Search Menu"
                       },
                       {
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex",
+                  newsletterName: "DrJay",
                   serverMessageId: 143
                 }
               }
@@ -210,7 +210,7 @@ let mode = ethix.public ? 'public' : 'private';
 │🤖 ʙᴏᴛ ɴᴀᴍᴇ: *DRJAY MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
 │👨‍💻 ᴏᴡɴᴇʀ : *DRJAY*      
-│👤 ɴᴜᴍʙᴇʀ: 254743982206
+│👤 ɴᴜᴍʙᴇʀ: 254795271503
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
@@ -323,8 +323,8 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `Trex-Md`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'Trex-Md'\nitem1.TEL;waid=${
+                    displayName: `DrJay-Md`,
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'DrJay-Md'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
@@ -341,7 +341,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -380,7 +380,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -413,7 +413,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/Trex.jpg'), 
+  image: fs.readFileSync('./src/DrJay.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -446,7 +446,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -485,7 +485,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -521,7 +521,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -549,7 +549,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -580,7 +580,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -612,7 +612,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
@@ -645,7 +645,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "Trex-Md",
+                  newsletterName: "DrJay-Md",
                   serverMessageId: 143
                 }
               }
