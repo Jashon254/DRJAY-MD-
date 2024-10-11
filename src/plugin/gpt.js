@@ -121,7 +121,7 @@ const mistral = async (m, Matrix) => {
                                     text: answer
                                 }),
                                 footer: proto.Message.InteractiveMessage.Footer.create({
-                                    text: "> © Powered By Trex-Md"
+                                    text: "> © Powered By DrJay-Md"
                                 }),
                                 header: proto.Message.InteractiveMessage.Header.create({
                                     title: "",
