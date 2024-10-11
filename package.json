@@ -1,15 +1,15 @@
 {
-  "name": "Trex Md",
+  "name": "DrJay Md",
   "version": "10.8.1",
-  "description": "Trex latest multi device whatsapp bot",
+  "description": "DrJay latest multi device whatsapp bot",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Trex Md",
-    "stop": "pm2 stop trex",
-    "restart": "pm2 restart trex"
+    "start": "pm2 start index.js --deep-monitoring --attach --name DrJay Md",
+    "stop": "pm2 stop DrJay",
+    "restart": "pm2 restart DrJay"
   },
-  "keywords": ["trex", "whatsapp-bot", "whatsapp md bot"],
+  "keywords": ["DrJay", "whatsapp-bot", "whatsapp md bot"],
   "author": "Marisel",
   "license": "ISC",
   "dependencies": {
