@@ -17,7 +17,7 @@
 
 <p align="center">  
   <a href="https://whatsapp.com/channel/0029VanNRQm6BIEfrDHM9V0F">
-    <img alt="wasi" height="400" src="https://telegra.ph/file/b8b94202ee501c05bfef2.jpg">
+    <img alt="wasi" height="400" src="https://i.ibb.co/ZG2Vgdd/images-11.jpg">
     <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
    <h1 align="center">DRJAY-MD</h1>
   </a>
