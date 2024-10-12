@@ -108,8 +108,8 @@ HOW TO REACH THE OWNER?
     <td>𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝑪𝒉𝒂𝒏𝒏𝒆𝒍</td>
   </tr>
   <tr>
-    <td><a href="https://wa.me/254795271503?"><img src="https://i.ibb.co/4jBhn13/Socialthumb.jpg" width="180"</td>
-    <td><a href="https://whatsapp.com/channel/0029VanNRQm6BIEfrDHM9V0F"><img src="https://i.ibb.co/4jBhn13/Socialthumb.jpg" width="180"</td>
+    <td><a href="https://wa.me/254795271503?"><img src="https://i.ibb.co/ZG2Vgdd/images-11.jpg" width="180"</td>
+    <td><a href="https://whatsapp.com/channel/0029VanNRQm6BIEfrDHM9V0F"><img src="https://i.ibb.co/ZG2Vgdd/images-11.jpg" width="180"</td>
   </tr>
 </table>
 
