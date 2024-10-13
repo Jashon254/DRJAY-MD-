@@ -52,7 +52,7 @@ async function downloadSessionData() {
         console.error('Please add your session to SESSION_ID env !!');
         return false;
     }
-    const sessdata = config.SESSION_ID.split("Ethix-MD&")[1];
+    const sessdata = config.SESSION_ID.split("DrJay-MD&")[1];
     const url = `https://pastebin.com/raw/${sessdata}`;
     try {
         const response = await axios.get(url);
@@ -95,8 +95,8 @@ async function start() {
                 }
             } else if (connection === 'open') {
                 if (initialConnection) {
-                    console.log(chalk.green("Trex-Md Integration Successful️"));
-                    Matrix.sendMessage(Matrix.user.id, { text: `Trex-Md Integration Successful️` });
+                    console.log(chalk.green("DrJay-Md Integration Successful️"));
+                    Matrix.sendMessage(Matrix.user.id, { text: `DrJay-Md Integration Successful️` });
                     initialConnection = false;
                 } else {
                     console.log(chalk.blue("♻️ Connection reestablished after restart."));
@@ -156,7 +156,7 @@ async function init() {
 init();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!, Marisel is here For you');
+    res.send('Hello World!, Dr.Jay is here For you');
 });
 
 app.listen(PORT, () => {
