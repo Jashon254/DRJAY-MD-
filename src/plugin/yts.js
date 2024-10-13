@@ -76,10 +76,10 @@ const song = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: 'Trex Md Video Downloader\n\n`
+                text: 'Dr.Jay Md Video Downloader\n\n`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© Powered By Trex-Md"
+                text: "© Powered By Dr.Jay-Md"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image: { url: `https://telegra.ph/file/7f5dbbec68a9c6a6b1317.jpg` } }, { upload: Matrix.waUploadToServer })),
