@@ -10,7 +10,7 @@ const searchRepo = async (m, Matrix) => {
   const validCommands = ['repo', 'sc', 'script'];
 
   if (validCommands.includes(cmd)) {
-    const repoUrl = `https://api.github.com/repos/berabotsmd/TREX-MD`;
+    const repoUrl = `https://api.github.com/repos/Jashon254/DRJAY-MD`;
     
     await handleRepoCommand(m, Matrix, repoUrl);
   }
@@ -52,7 +52,7 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
               text: messageText,
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: '© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐓𝐑𝐄𝐗 𝐌𝐃',
+              text: '© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 DRJAY 𝐌𝐃',
             }),
             header: proto.Message.InteractiveMessage.Header.create({
               ...(await prepareWAMessageMedia({
@@ -71,21 +71,23 @@ const handleRepoCommand = async (m, Matrix, repoUrl) => {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Contact Owner',
-                    url: 'https://wa.me/+94711262551?text=HI_HANSAMAL_BOT_OWNER',
+                    url: 'https://wa.me/+254795271503?text=HI_DRJAY_BOT_OWNER',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Click Here To Fork',
-                    url: 'https://github.com/berabotsmd/TREX-MD/fork',
+                    url: 'https://github.com/Jashon254/DRJAY-MD/fork',
                   }),
                 },
                 {
                   name: 'cta_url',
                   buttonParamsJson: JSON.stringify({
                     display_text: 'Join Our Community',
-                    url: 'https://whatsapp.com/channel/0029VajJoCoLI8YePbpsnE3q',
+                    url: 'https://chat.whatsapp.com/BGBcn6XL7oZE0JBLwLWHT5
+
+Group link!',
                   }),
                 },
               ],
