@@ -9,7 +9,7 @@ const __filename = new URL(import.meta.url).pathname;
 const __dirname = path.dirname(__filename);
 const chatHistoryFile = path.resolve(__dirname, '../tag_history.json');
 
-const mistralSystemPrompt = "You are TREX MD, an intelligent bot. Someone mentioned your owner. Respond with helpful and friendly assistance.";
+const mistralSystemPrompt = "You are DRJAY MD, an intelligent bot. Someone mentioned your owner. Respond with helpful and friendly assistance.";
 
 async function readChatHistoryFromFile() {
     try {
