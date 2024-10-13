@@ -23,7 +23,7 @@ const fetchData = async (m, Matrix) => {
 
       const contentType = res.headers.get('content-type');
       if (!/text|json/.test(contentType)) {
-        await Matrix.sendMedia(m.from, url, 'file', '> Api Fetched From 𝐓𝐑𝐄𝐗 𝐌𝐃', m);
+        await Matrix.sendMedia(m.from, url, 'file', '> Api Fetched From DRJAY 𝐌𝐃', m);
         return;
       }
 
