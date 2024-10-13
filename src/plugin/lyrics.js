@@ -15,7 +15,7 @@ const Lyrics = async (m, Matrix) => {
 
     try {
       await m.React('🕘');
-      await m.reply('A moment, *𝐓𝐑𝐄𝐗 𝐌𝐃* is generating your lyrics request...');
+      await m.reply('A moment, *DRJAY 𝐌𝐃* is generating your lyrics request...');
 
       if (!text.includes('|')) {
         return m.reply('Please provide the song name and artist name separated by a "|", for example: Spectre|Alan Walker.');
@@ -70,7 +70,7 @@ const Lyrics = async (m, Matrix) => {
                   text: lyrics
                 }),
                 footer: proto.Message.InteractiveMessage.Footer.create({
-                  text: "> *© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐓𝐑𝐄𝐗 𝐌𝐃*"
+                  text: "> *© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 DRJAY 𝐌𝐃*"
                 }),
                 header: proto.Message.InteractiveMessage.Header.create({
                   title: "",
