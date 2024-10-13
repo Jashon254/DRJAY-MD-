@@ -20,7 +20,7 @@ const gdriveDownload = async (m, Matrix) => {
 
       if (gdriveInfo && gdriveInfo.status && gdriveInfo.data) {
         const mediaUrl = gdriveInfo.data;
-        const caption = `> © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐓𝐑𝐄𝐗 𝐌𝐃`;
+        const caption = `> © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 DRJAY 𝐌𝐃`;
 
         // Inferring the file type based on the file extension
         const extension = mediaUrl.split('.').pop().toLowerCase();
