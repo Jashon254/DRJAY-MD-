@@ -80,10 +80,10 @@ const facebookCommand = async (m, Matrix) => {
             },
             interactiveMessage: proto.Message.InteractiveMessage.create({
               body: proto.Message.InteractiveMessage.Body.create({
-                text: `*𝐓𝐑𝐄𝐗-𝐌𝐃 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐏𝐎𝐒𝐓 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*\n\n> *TITLE*: ${fbData.title}`
+                text: `*DR.JAY 𝐌𝐃 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𝐏𝐎𝐒𝐓 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑*\n\n> *TITLE*: ${fbData.title}`
               }),
               footer: proto.Message.InteractiveMessage.Footer.create({
-                text: "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐓𝐑𝐄𝐗-𝐌𝐃"
+                text: "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 DRJAY 𝐌𝐃"
               }),
               header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image: { url: fbData.thumbnail } }, { upload: Matrix.waUploadToServer })),
@@ -145,7 +145,7 @@ const facebookCommand = async (m, Matrix) => {
             content = { 
               video: finalMediaBuffer, 
               mimetype: 'video/mp4', 
-              caption: '> © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐓𝐑𝐄𝐗-𝐌𝐃',
+              caption: '> © 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 DRJAY 𝐌𝐃',
             };
             await Matrix.sendMessage(m.from, content, { quoted: m });
           } else {
