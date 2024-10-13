@@ -92,7 +92,7 @@ let mode = ethix.public ? 'public' : 'private';
               text: `╭─────────────━┈⊷
 │🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝐓𝐑𝐄𝐗 𝐌𝐃*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *BERA*      
+│👨‍💻 ᴏᴡɴᴇʀ : *DRJAY*      
 │👤 ɴᴜᴍʙᴇʀ: 254743982206
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
@@ -100,7 +100,7 @@ let mode = ethix.public ? 'public' : 'private';
 ╰─────────────━┈⊷ `
             }),
             footer: proto.Message.InteractiveMessage.Footer.create({
-              text: "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 𝐓𝐑𝐄𝐗 𝐌𝐃"
+              text: "© 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 DRJAY 𝐌𝐃"
             }),
             header: proto.Message.InteractiveMessage.Header.create({
                 ...(await prepareWAMessageMedia({ image : fs.readFileSync('./src/HANSAMAL.jpg')}, { upload: Matrix.waUploadToServer})), 
@@ -190,7 +190,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY MD",
                   serverMessageId: 143
                 }
               }
@@ -207,9 +207,9 @@ let mode = ethix.public ? 'public' : 'private';
         const mode = process.env.MODE;
         const str = `hey ${m.pushName} ${pushwish}
 ╭─────────────━┈⊷
-│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *HANSAMAL-MD*
+│🤖 ʙᴏᴛ ɴᴀᴍᴇ: *DRJAY-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
-│👨‍💻 ᴏᴡɴᴇʀ : *IMALKA*      
+│👨‍💻 ᴏᴡɴᴇʀ : *DRJAY       
 │👤 ɴᴜᴍʙᴇʀ: 94711262551
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
@@ -323,7 +323,7 @@ let mode = ethix.public ? 'public' : 'private';
             },
             message: {
                 contactMessage: {
-                    displayName: `HANSAMAL-MD`,
+                    displayName: `DRJAY-MD`,
                     vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HANSAMAL-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
@@ -333,7 +333,7 @@ let mode = ethix.public ? 'public' : 'private';
             }
         };
        let { key } = await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -341,7 +341,7 @@ let mode = ethix.public ? 'public' : 'private';
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -372,7 +372,7 @@ let mode = ethix.public ? 'public' : 'private';
 ┃✰ ${prefix}𝚃𝚒𝚔𝚝𝚘𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -380,7 +380,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -413,7 +413,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
     mentionedJid: [m.sender], 
@@ -477,7 +477,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚊𝚞𝚝𝚘𝚜𝚟𝚒𝚎𝚠
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -485,7 +485,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -513,7 +513,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙻𝚢𝚛𝚒𝚌𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -521,7 +521,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -541,7 +541,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚒𝚝𝚑𝚞𝚋𝚂𝚝𝚊𝚕𝚔
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -549,7 +549,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -572,7 +572,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝚃𝚝𝚜
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -580,7 +580,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -604,7 +604,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙶𝚎𝚖𝚒𝚗𝚒
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -612,7 +612,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
@@ -637,7 +637,7 @@ await Matrix.sendMessage(m.from, {
 ╰━━━━━━━━━━━━━━━⪼
      `
      await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -645,7 +645,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
