@@ -93,7 +93,7 @@ let mode = ethix.public ? 'public' : 'private';
 │🤖 ʙᴏᴛ ɴᴀᴍᴇ: *𝐓𝐑𝐄𝐗 𝐌𝐃*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
 │👨‍💻 ᴏᴡɴᴇʀ : *DRJAY*      
-│👤 ɴᴜᴍʙᴇʀ: 254743982206
+│👤 ɴᴜᴍʙᴇʀ: 254795271503
 │📡 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
@@ -210,7 +210,7 @@ let mode = ethix.public ? 'public' : 'private';
 │🤖 ʙᴏᴛ ɴᴀᴍᴇ: *DRJAY-MD*
 │📍 ᴠᴇʀꜱɪᴏɴ: 3.0.2
 │👨‍💻 ᴏᴡɴᴇʀ : *DRJAY       
-│👤 ɴᴜᴍʙᴇʀ: 94711262551
+│👤 ɴᴜᴍʙᴇʀ: +254795271503
 │💻 ᴘʟᴀᴛғᴏʀᴍ: *${os.platform()}*
 │🛡 ᴍᴏᴅᴇ: *${mode}*
 │💫 ᴘʀᴇғɪx: *[Multi-Prefix]*
@@ -324,7 +324,7 @@ let mode = ethix.public ? 'public' : 'private';
             message: {
                 contactMessage: {
                     displayName: `DRJAY-MD`,
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'HANSAMAL-MD'\nitem1.TEL;waid=${
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'DRJAY-MD'\nitem1.TEL;waid=${
                         m.sender.split("@")[0]
                     }:${
                         m.sender.split("@")[0]
@@ -438,7 +438,7 @@ await Matrix.sendMessage(m.from, {
 ┃✰ ${prefix}𝙸𝚗𝚏𝚘𝚋𝚘𝚝
 ╰━━━━━━━━━━━━━━━⪼`
 await Matrix.sendMessage(m.from, {
-  image: fs.readFileSync('./src/HANSAMAL.jpg'), 
+  image: fs.readFileSync('./src/DRJAY.jpg'), 
   caption: str, 
   contextInfo: {
                   mentionedJid: [m.sender], 
@@ -446,7 +446,7 @@ await Matrix.sendMessage(m.from, {
                   isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                   newsletterJid: '',
-                  newsletterName: "HANSAMAL-MD",
+                  newsletterName: "DRJAY-MD",
                   serverMessageId: 143
                 }
               }
