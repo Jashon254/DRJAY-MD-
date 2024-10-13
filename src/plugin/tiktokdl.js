@@ -136,9 +136,9 @@ const tiktokCommand = async (m, Matrix) => {
           const fileSizeInMB = finalMediaBuffer.length / (1024 * 1024);
 
           if (type === 'video' && fileSizeInMB <= 300) {
-            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> © Powered by HANSAMAL-MD' };
+            content = { video: finalMediaBuffer, mimetype: 'video/mp4', caption: '> © Powered by DRJAY-MD' };
           } else if (type === 'audio' && fileSizeInMB <= 300) {
-            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> © Powered by HANSAMAL-MD' };
+            content = { audio: finalMediaBuffer, mimetype: 'audio/mpeg', caption: '> © Powered by DRJAY-MD' };
           }
 
           await Matrix.sendMessage(m.from, content, { quoted: m });
